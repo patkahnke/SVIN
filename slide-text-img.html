@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video SVIN</title>
+	<link rel="stylesheet" href="vendors/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="vendors/jquery.js"></script>
+	<script src="vendors/jquery-ui.min.js"></script>
+	<script src="clientApp.js"></script>
+</head>
+<body>
+	<div class="body-container">
+		<header>
+			<div class="logo"><img src="imgs/basic-stroke-logo.jpg"></div>
+			<div class="header-title" aria-role="heading">
+				<p class="header-title-text" aria-label="Slide Title">
+					Treatment Options & Methods for Improving Stroke Outcomes
+				</p>
+				<p class="header-title-page-number" aria-label="Lesson Progress">
+					22 of 31
+				</p>
+			</div>
+			<!-- "header-right-overlay" - copy of header graphic's right side. responds to window resizing -->
+			<img class="header-right-overlay" src="imgs/SVIN-header-right.svg" aria-hidden="true">
+		</header>
+
+		<div class="slide-container" role="main">
+			<div class="text-container">
+				<h1>Transient Ischemic Attack (TIA)</h1>
+				<ul>
+					<li class="text-bullet">Known as a Mini Stroke</li>
+					<li class="text-bullet">Stroke symptoms that last <24 hours</li>
+					<li class="text-bullet">Usually does not lead to damage</li>
+					<li class="text-bullet">It is a warning sign</li>
+					<ul>
+						<li class="text-bullet">- 40% will have a stroke</li>
+						<li class="text-bullet">- Common to occur within the next few days</li>
+					</ul>
+				</ul>
+			</div>
+			<div class="img-container">
+				<img src="imgs/brain.png"  alt="Brain">
+			</div>
+		</div>
+
+		<div class="toolbar-container" role="toolbar">
+			<button class="toolbar-btn dropdown" aria-label="Menu">
+				<div class=toolbar-btn-text-graphic><img src="imgs/menu.svg" class="toolbar-icon-left"><h2>MENU</h2></div>
+			  	<div class="dropdown-content" role="menu">
+				    <a href="#" role="menuitem">Basic Anatomy, Statistics, & Types of Strokes</a>
+				    <a href="#" role="menuitem">Risk Factors, Signs and Symptoms, BE FAST</a>
+				    <a href="#" role="menuitem">EMS & Detection Scales</a>
+					<a href="#" role="menuitem">Treatment Options & Methods for Improving Stroke Outcomes</a>
+			  	</div>
+			</button>
+			<button class="toolbar-btn" id="transcript-btn" aria-label="Transcript">
+				<div class=toolbar-btn-text-graphic><img src="imgs/transcript.svg" class="toolbar-icon-left"><h2>TRANSCRIPT</h2></div>
+			</button>
+			<button class="toolbar-btn" aria-label="Play or Pause Audio">
+				<div class=toolbar-btn-text-graphic><img src="imgs/play.svg" class="toolbar-icon-left"><h2>PLAY AUDIO</h2></div>
+			</button>
+			<button class="toolbar-btn" aria-label="Back">
+				<div class=toolbar-btn-text-graphic><img src="imgs/back.svg" class="toolbar-icon-left"><h2>BACK</h2></div>
+			</button>
+			<button class="toolbar-btn" aria-label="Next">
+				<div class=toolbar-btn-text-graphic><h2>NEXT</h2><img src="imgs/next.svg" class="toolbar-icon-right"></div>
+			</button>
+			<button class="toolbar-btn" aria-label="Exit">
+				<div class=toolbar-btn-text-graphic><img src="imgs/exit.svg" class="toolbar-icon-left"><h2>EXIT</h2></div>
+			</button>
+		</div>
+	</div>
+
+	<!-- popup transcript dialog box -->
+	<div id="transcript-dialog" role="dialog" title="Transcript" aria-label="Audio Transcript">
+		<p>
+			The first medical staff to evaluate a patient suspected of having a stroke, needs to obtain key
+			information that will help determine what treatments are available for the patient. Basic level
+			triage includes obtaining the specific time the patient was last known well or the time of onset.
+			It is important to note, if the patient wakes up from a stroke with new symptoms or is found down,
+			the time of onset is not known. Therefore, you must use the last known well, even if this means the
+			time they went to bed the night before. If possible, try to obtain a phone number for any witness
+			or first-degree relatives from the EMS providers in case they are delayed in making it to the hospital.
+			Often, their input is critical in some of the decisions that are made about treatment.It is also important
+			to obtain a history of recent events; including whether the patient has suffered a stroke, heart attack,
+			trauma, episode of bleeding or has had recent surgeries.The emergency room provider also needs to try to
+			get a past medical history; information like a history of seizure, high blood pressure, diabetes or
+			even previous stroke is valuable information that will help determine how best to treat the patient.
+			Sometimes, it is difficult to obtain a complete past medical history; therefore, reviewing medications can
+			help piece together the history and identify potential contraindications to certain treatments.
+		</p>
+	</div>
+</body>
+</html>
