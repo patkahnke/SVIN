@@ -277,7 +277,7 @@ header {
 
 @media (min-width: 768px) {
 	.body-container {
-		height: 576px;
+		min-height: 576px;
 	}
 }
 
@@ -301,7 +301,7 @@ header {
 	.text-bullet {
 		font-size: 19px;
 	}
-	
+
 	.text-only-container {
 		padding-left: 40px;
 	}
