@@ -278,7 +278,7 @@ header {
 
 	.logo img { width: 120px; }
 
-	.toolbar-btn h2 { display: none; }
+	.toolbar-btn p { display: none; }
 
 	.text-only-container { padding-left: 25px; }
 
