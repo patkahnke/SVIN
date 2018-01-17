@@ -1,7 +1,7 @@
 $(function() {
    const transcript = $( "#transcript-dialog" );
    const transcriptButton = $( "#transcript-btn" );
-   
+
    transcript.dialog({
       autoOpen: false,
       position: { at: "left bottom" },
@@ -42,5 +42,6 @@ $(function() {
 
    $(".dropdown").click(function() {
       $(".dropdown-content").toggleClass("show");
+      console.log('dropdown');
    });
 });
