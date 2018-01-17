@@ -94,8 +94,9 @@ header {
 	margin: 0;
 }
 
-.toolbar-btn h2 {
+.toolbar-btn p {
 	font-size: 1.125rem;
+	font-weight: 600;
 	color: #21265d;
 	margin: 0;
 }
