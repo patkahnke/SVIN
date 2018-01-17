@@ -85,7 +85,7 @@ header {
 .toolbar-container { display: flex; }
 
 .toolbar-btn {
-	height: 42px;
+	height: 2.625rem;
 	border: 1px solid #d3dedc;
 	padding: 0;
 	background-color: #fff;
@@ -140,7 +140,7 @@ header {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	width: 480px;
+	width: 30rem;
 	text-align: left;
 	font-size: 1rem;
 	box-shadow: 0 1px 10px #aaa;
@@ -156,7 +156,7 @@ header {
 }
 
 .dropdown-content.show a {
-	height: 30px;
+	height: 1.875rem;
 	color: #21265d;
 	border-top: 1px solid #d3dedc;
 	padding: 12px 16px 2px 14px;
@@ -184,8 +184,6 @@ header {
 	background-color: #cacaca;
 	border: 1px solid #bbb;
 }
-
-/* .inactive-btn .toolbar-icon-left { opacity: .35; } */
 
 .inactive-btn h2 { color: #999; }
 
@@ -266,20 +264,14 @@ header {
 }
 
 @media (max-width: 1023px) {
-	h1 { font-size: 1.375rem; }
-
-	.text-bullet { font-size: 1.125rem; }
-
 	.text-only-container { padding-left: 40px; }
-
-	.toolbar-btn h2 { font-size: 1rem; }
 }
 
 @media (max-width: 767px) {
 	header {
 		background-image: none;
 		background-color: #fff;
-		height: 60px;
+		height: 3.75rem;
 		margin-bottom: 5px;
 	}
 
