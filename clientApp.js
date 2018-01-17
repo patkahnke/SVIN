@@ -42,6 +42,5 @@ $(function() {
 
    $(".dropdown").click(function() {
       $(".dropdown-content").toggleClass("show");
-      console.log('dropdown');
    });
 });
